@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CSS properties" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kalnia:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="CSS/main.CSS" />
+    <title>CSS properties</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <!-- login form -->
+        <form>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" required />
+            <!-- adding required to the end of input adds form validation  -->
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+          <div id="form-check">
+            <input type="checkbox" id="stay" />
+            <label for="stay">Stay logged in</label>
+          </div>
+
+          <button type="submit">Login</button>
+        </form>
+        <!-- login form -->
+        <h1>Bills Book Store</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <ol>
+            <li>step 1</li>
+            <li>step 2</li>
+            <li>step 3</li>
+            <li>step 4</li>
+          </ol>
+          <p>
+            <strong>Lorem ipsum </strong>dolor sit amet, consectetur adipisicing
+            elit. A, ipsa vero! Molestias amet doloremque, magnam cumque
+            architecto rerum, mollitia corporis error ad quibusdam tempora
+            beatae repellat fuga impedit <em>libero inventore?</em> Nesciunt
+            dolores architecto officia provident, rem voluptatem necessitatibus
+            similique fugit eligendi corporis consequatur? Eius natus, sapiente
+            fuga assumenda quas, laboriosam ipsam quod quis, expedita id facilis
+            officiis suscipit? Obcaecati, non voluptates. Hic, accusantium. Sint
+            doloribus vero eligendi quas repellendus dicta officia nam odio et
+            quaerat alias ratione, dignissimos voluptatem dolorum autem ab
+            temporibus numquam iusto accusamus! Facilis, cumque sapiente! Nulla
+            quos, cupiditate neque optio quae porro magni eligendi eaque iste?
+          </p>
+        </section>
+        <section>
+          <h2 class="about-heading" id="about-h2">About</h2>
+          <p id="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis
+            quam, magnam ipsam a impedit et? Dignissimos et commodi velit labore
+            harum, aperiam quos magni magnam illo! Nam, id ipsum corporis
+            voluptatibus beatae porro dolorum accusamus, iusto unde nisi
+            obcaecati eaque error ratione molestias nihil veniam incidunt cumque
+            minus quam. Quaerat facere voluptas, voluptatibus perspiciatis culpa
+            in repellat quibusdam velit maxime eligendi ut tempore et assumenda
+            saepe officia, ad laboriosam sint, iste error. Facilis doloribus
+            suscipit reprehenderit id saepe ipsa ratione ab? Libero sequi sint
+            quasi aperiam laudantium itaque rerum deleniti sapiente culpa,
+            suscipit eum labore unde explicabo doloremque quia.
+          </p>
+        </section>
+        <section>
+          <h2 id="shop">Shop</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet
+            incidunt maiores id eaque odit quo commodi unde voluptas quae quis
+            porro officia adipisci atque obcaecati accusantium accusamus numquam
+            ad esse fugiat perferendis ullam eligendi, illum non? Assumenda modi
+            rem doloribus eaque fugiat quo doloremque dolorum adipisci
+            explicabo? Ipsum exercitationem atque labore nemo placeat officiis
+            blanditiis, soluta facilis suscipit facere praesentium incidunt non,
+            consectetur temporibus quidem, saepe fugit! Accusamus, ratione iste
+            doloribus eius pariatur rem et odit nulla facere ea nesciunt
+            reprehenderit vero, officiis, exercitationem mollitia cum esse?
+            Dolores rerum vero consequuntur nihil maxime porro, fugiat enim
+            aspernatur saepe minus?
+          </p>
+        </section>
+        <section>
+          <h2 id="contact">Contact</h2>
+          <!-- contact form -->
+          <form>
+            <div>
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                required
+                minlength="1"
+                maxlength="20"
+              />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                required
+                minlength="1"
+                maxlength="20"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div>
+              <label for="age">Age</label>
+              <input type="number" id="age" min="1" max="99" />
+            </div>
+            <div>
+              <label for="pnumber">Phone Number</label>
+              <input type="text" id="pnumber" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                required
+                minlength="1"
+                maxlength="200"
+              ></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+          <!-- contact form -->
+        </section>
+      </main>
+      <footer>
+        <p>Copyright Bills Bookstore</p>
+      </footer>
+    </div>
+  </body>
+</html>
